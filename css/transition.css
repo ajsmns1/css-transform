@@ -1,0 +1,27 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: 1px solid red;
+  transition: all 0.3s ease-in-out;
+  /* transition-property: width, height;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out; */
+}
+.bg-transform1:hover {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.bg-transform2:hover {
+  border-radius: 50%;
+  background-color: violet;
+}
+.bg-transform3:hover {
+  border-radius: 50%;
+  /* border-style: dotted;
+  border-width: 5px;
+  border-color: black; */
+  border: 5px dotted black;
+  transform: rotate(60deg) translateX(100px);
+}

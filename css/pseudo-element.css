@@ -1,0 +1,18 @@
+p::before {
+  content: "🛴";
+  font-size: 24px;
+}
+p::after {
+  content: "0000";
+  color: red;
+}
+h2::after {
+  content: "\f015";
+  font-family: "Font Awesome 6 Free";
+  color: red;
+  font-size: 12px;
+}
+.fa-image {
+  font-size: 48px;
+  color: violet;
+}
